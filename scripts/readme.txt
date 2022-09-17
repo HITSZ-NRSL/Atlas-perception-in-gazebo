@@ -1,0 +1,3 @@
+YOLO_ws文件夹应放在atlas端，用于目标检测
+
+除YOLO_ws以外的文件夹放在pc端，communication，control用于gazebo无人机的通信与控制，launch用于启动gazebo仿真环境

@@ -1,0 +1,4 @@
+<launch>
+    <node name="main_ros_compressed" pkg="yolo_atlas_ros" type="main_ros_compressed" output="screen">
+    </node>
+</launch>

@@ -1,0 +1,5 @@
+<launch>
+    <node name="main_ros_compressed" pkg="yolo_atlas_ros" type="main_ros_compressed" output="screen">
+        <remap from="/camera/color/image_raw/compressed" to="/realsense_2/camera/color/image_raw/compressed"/>
+    </node>
+</launch>

@@ -1,0 +1,6 @@
+<launch>
+    <node name="main_ros" pkg="yolo_atlas_ros" type="main_ros" output="screen">
+        <remap from="/camera/color/image_raw/compressed" to="/d400/color/image_raw/compressed"/>
+    </node>
+
+</launch>
