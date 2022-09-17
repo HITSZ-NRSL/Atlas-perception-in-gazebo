@@ -11,7 +11,7 @@ pip2 install pandas jinja2 pyserial cerberus pyulog==0.7.0 numpy toml pyquaterni
 pip3 install packaging numpy empy toml pyyaml jinja2 pyargparse
 
 ROS安装：
-根据观望wiki.ros.org/Installation/Ubuntu安装好ROS
+根据wiki.ros.org/Installation/Ubuntu安装好ROS
 
 Gazebo安装：
 sudo apt-get remove gazebo* 
